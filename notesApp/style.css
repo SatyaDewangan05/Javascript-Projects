@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.notes{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.note{
+    border: 1px solid black;
+    border-radius: 5px;
+    /* padding: 10px; */
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 10px 10px;
+}
+
+
+.tools{
+    background-color: grey;
+    color: white;
+    overflow: hidden;
+    padding: 4px;
+    text-align: right;
+}   
+
+.tools-btn{
+    padding: 0 4px;
+    cursor: pointer;
+}
+
+.edit{
+    display: none;
+}
+
+.done{
+    display: unset;
+}
+
+.content{
+    padding: 10px;
+    height: 90%;
+}
+.main{
+    display: none;
+}
+
+textarea{
+    /* display: none; */
+    resize: none;
+    height: 100%;
+    width: 100%;
+}
+
+.add-note{
+    height: 40px;
+    padding: 10px;
+}

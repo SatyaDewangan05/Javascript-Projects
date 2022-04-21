@@ -1,0 +1,34 @@
+*{
+    /* margin: 0px; */
+    padding: 0px;
+}
+
+body{
+    background: url('./background.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 10rem;
+}
+
+.countdown-container{
+    display: flex;
+    margin: 0 auto;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+        text-align: center;
+}
